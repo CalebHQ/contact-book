@@ -1,5 +1,7 @@
 # Contact Book
 
+Created using Python and MySQL
+
 This application stores contacts based on:
 - First name
 - Last name
@@ -12,5 +14,5 @@ This application stores contacts based on:
 - Country
 - Relationship
 
-Created using Python and MySQL
+Menu allows user to Create, Update, Delete and Select contacts
 
