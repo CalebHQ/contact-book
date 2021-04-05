@@ -4,10 +4,10 @@ import mysql.connector
 # mycursor.execute("CREATE TABLE Contact (id int PRIMARY KEY NOT NULL AUTO_INCREMENT, fname varchar(50) NOT NULL, lname varchar(50), phone int NOT NULL, email varchar(50), address varchar(50), suburb varchar(50), postcode int, state varchar(50), country varchar(50), relationship varchar(50))")
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="root",
-    database="contactbook"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 
 mycursor = db.cursor()
